@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1 style="color: #ff8000;"><b>Welcome</b></h1>
+          <p>
+            to my first</p><p>Reveal.js</p><p>Presentation</p> 
+          </p>
+      <img src="./images/EXRSIM_Small.jpg" alt="Italian Trulli" width="150" height="65">
+        </section>
+        <section data-background-image = "./images/lancaster.jpeg"><h3 style="color: #3273c9;"><b>Benefits</b></h3>
+      <ul><li class="fragment" style="color: #ff8000;">easy to use</li><li class="fragment" style="color: #ff8000;">quick to develop</li><li class="fragment" style="color: #ff8000;">based mostly on HTML</li><li class="fragment" style="color: #ff8000;">Professional look</li></ul></section>
+        <section>
+          <section><h3 style="color: #ff8000; margin: 10px" >Possible Projects...</h3></section>
+      <section><img src="./images/EXRSIM_Small.jpg" alt="Italian Trulli" width="200" height="85"></section>
+          <section><img src="./images/SmartCone.jpeg" alt="Italian Trulli" width="200" height="60"></section>
+          <section><img src="./images/symp2pass.png" alt="Italian Trulli" width="200" height="200"></section>
+          <section><img src="./images/disney.png" alt="Italian Trulli" width="200" height="200"></section>
+        </section>
+        <section data-background-image = "./images/lancaster.jpeg"><h3 style="color: #ff8000; margin: 60px">...an integrated plan</h3><p style="color: #ff8000; margin: 350px">a continued partnership between Brad and Steve</p></section>
+        <section data-background-image = "./images/lancaster.jpeg"><h3 style="color: #ff8000; #ff8000; margin: 60px">...continued effort</h3><p style="color: #ff8000; margin: 350px">to ensure the success of the EXRSIM Company</p></section>
+        <section data-background-image = "./images/lancaster.jpeg"><h3 style="color: #ff8000; margin: 60px">...enhanced reliability</h3><p style="color: #ff8000; margin: 330px">through effective technologies, platforms and frameworks</p></section>
+        <section data-background-image = "./images/lancaster.jpeg"><h3 style="color: #ff8000; margin: 60px">...security</h3><p style="color: #ff8000; margin: 350px">through financial stability and profitability</p></section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: true,
+        hash: true,
+        touch: true,
+    transition: 'convex',
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      })
+    </script>
+  </body>
+</html>
+
